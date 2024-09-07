@@ -22,3 +22,6 @@ Nunca mais gaste horas pedindo o número de telefone de profissionais nos grupos
 * **Público-alvo:** Pessoas com problemas rotineiros, que precisam de um profissional disponível.
 * **Diferenciais:** Simplicidade, agilidade, interação com whatsapp
 * **Metas:** Conectar pessoas a profissionais disponíveis.
+
+**OBSERVAÇÃO:**
+O telefone utilizado no projeto é meu contato profissional.

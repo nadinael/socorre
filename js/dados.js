@@ -38,7 +38,7 @@ let profissionais = [
         nome: "Pedro Gomes",
         bio: "Faço reformas gerais, desde encanamento até pintura. Profissional experiente.",
         contato: "81982386944",
-        servicos: "pedreiro, pintor, encanador",
+        servicos: "pedreiro, pintor, encanador, mecanino",
         perfil: "https://images.pexels.com/photos/544966/pexels-photo-544966.jpeg"
     },
     {

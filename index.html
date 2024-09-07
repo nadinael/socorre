@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Socorre aqui!</title>
+</head>
+
+<body>
+    <div class="corpo">
+
+        <div class="cabecario">
+            <header>
+                <h1>Socorre aqui!</h1>
+            </header>
+        </div>
+
+        <div class="conteudo">
+            <main>
+                <div class="caixa">
+                    <div class="entrada">
+                        <section>
+                            <div class="campo-pesquisa">
+                                <input id="texto" type="text" placeholder="Procure pelo serviço que você precisa">
+                                <button class="btn-p" onclick="pesquisar()">Pesquisar</button>
+                                <button class="btn-l" onclick="limpar()">Limpar</button>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="resultado">
+                        <section id="resultado">
+
+                        </section>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div class="rodape">
+            <footer>
+
+                <p>Socorre Aqui! - Todos os direitos reservados &copy</p>
+                <p>Desenvolvido por Nadinael Silva Teixeira</p>
+
+            </footer>
+        </div>
+    </div>
+    <script src="/js/dados.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>

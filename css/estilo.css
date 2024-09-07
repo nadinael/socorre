@@ -1,0 +1,125 @@
+body {
+    background-color: #C4DAD2;
+    color: #16423C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecario {
+    font-size: 2em;
+    text-align: center;
+}
+
+.conteudo {
+    width: 100%;
+    margin: 0;
+    background-color: #6A9C89;
+    height: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+.rodape {
+    color: #E9EFEC;
+    left: 0;
+    text-align: center;
+
+    background-color: #285430;
+
+    padding: 0;
+    width: 100%;
+}
+
+.corpo {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+}
+
+.entrada {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.entrada input {
+    width: 100%;
+    margin-bottom: 1%;
+    height: 40px;
+    font-size: 1.5em;
+}
+
+.entrada button {
+    height: 50px;
+    border-radius: 1.5em;
+    border: none;
+    width: 180px;
+    font-size: 1.5em;
+
+}
+
+.resultado {
+    -color: #5e8b7a;
+    text-align: center;
+    color: #e9e9ef;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.btn-p {
+    background-color: #1a6e8f;
+    color: white;
+}
+
+.btn-l {
+    background-color: #bdae2e;
+    color: white;
+}
+
+.btn-p:hover {
+    background-color: #16546d;
+}
+
+.btn-l:hover {
+    background-color: #948924;
+}
+
+.item-resultado img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+}
+
+.item-resultado p a {
+    margin-left: 5px;
+}
+
+
+.item-resultado {
+    background-color: #3b7553;
+    border: 1px solid #317029;
+    display: flex;
+    flex-direction: row;
+}
+
+.item-resultado div.informacoes {
+    text-align: left;
+    margin-left: 2%;
+    margin-top: 0;
+}

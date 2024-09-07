@@ -68,7 +68,7 @@ body {
 }
 
 .resultado {
-    -color: #5e8b7a;
+    color: #5e8b7a;
     text-align: center;
     color: #e9e9ef;
 }
@@ -122,4 +122,49 @@ body {
     text-align: left;
     margin-left: 2%;
     margin-top: 0;
+}
+
+
+.item-resultado-aviso {
+    background-color: #3b7553;
+    border: 3px solid #c4b537;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.8rem;
+        /* Tamanho da fonte em telas pequenas */
+        letter-spacing: 0.1rem;
+        /* Espaçamento entre letras em telas pequenas */
+    }
+
+    section input {
+        width: 17rem;
+        /* Largura total dos inputs em telas pequenas */
+        font-size: 0.6em;
+    }
+
+    .entrada button {
+        margin-top: 1em;
+        height: 30rpx;
+        border-radius: 1.5em;
+        border: none;
+        width: 108px;
+        font-size: 1em;
+
+    }
+
+    .resultado {
+        width: 90%;
+        /* Largura da caixa de resultados em telas pequenas */
+    }
+
+    footer {
+        font-size: 0.9rem;
+        /* Tamanho da fonte do rodapé em telas pequenas */
+    }
 }
